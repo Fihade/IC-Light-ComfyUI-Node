@@ -1,0 +1,15 @@
+[project]
+name = "ic-light-comfyui-node"
+description = "Original repo: [a/https://github.com/lllyasviel/IC-Light](https://github.com/lllyasviel/IC-Light)\nModels: [a/https://huggingface.co/lllyasviel/ic-light/tree/main](https://huggingface.co/lllyasviel/ic-light/tree/main), [a/https://huggingface.co/digiplay/Photon_v1/tree/main](https://huggingface.co/digiplay/Photon_v1/tree/main)\nmodels go into ComfyUI/models/unet"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers>=0.27.2", "accelerate>=0.29.2", "omegaconf"]
+
+[project.urls]
+Repository = "https://github.com/Fihade/IC-Light-ComfyUI-Node"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "IC-Light-ComfyUI-Node"
+Icon = ""
